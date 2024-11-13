@@ -1,9 +1,10 @@
+//Gabriell Lee
 public class Student {
 private String name;
 private int ID;
 private int[] grades;
 
-
+//initializing name, ID, and grades
 public void main(String[] args) {
     this.name = "Unknown";
     this.ID = 0;
@@ -11,13 +12,14 @@ public void main(String[] args) {
 
 
 }
+    //Parameterized constructor for name, ID, grades
 Student(String name, int ID, int[] grades) {
 this.name = name;
 this.ID = ID;
 setGrades(grades);
     }
 
-
+//getters and setter
  public String getName(){
     return name;
  }
